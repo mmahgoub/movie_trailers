@@ -17,7 +17,7 @@ class Movie():
             self.genre = result["Genre"]
 
             ytclient = youtubeapi.YouTubeClient(
-            "###YOUR YOUTUBE APIKEY HERE###")
+            "AIzaSyCtsDlez_k470KAH8LKK0ZE6MTTXynXO9E")
             search_result = ytclient.search_list(self.title)
             self.trailer_youtube_url = "https://www.youtube.com/watch?v=" + \
             search_result["items"][0]["id"]["videoId"]

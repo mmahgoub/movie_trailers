@@ -1,5 +1,5 @@
 # Movie Trailers
-This app will generate an HTML file contains a tile of your favorite movies.
+This app will generate an HTML file contains a tile of your favourite movies.
 
 
 ## Configuration
@@ -14,4 +14,4 @@ movies = [the_avaitor]
 You are only required to add the movie title and the app will populate other movie information from [OMDB Api](http://www.omdbapi.com/) and [YouTube API](https://developers.google.com/youtube/)
 
 ## Run
-To launch this app on a Linux machine please run `$ python fresh_tomatoes.py`
+To launch this app on a Linux machine please run `$ python entertainment_center.py`

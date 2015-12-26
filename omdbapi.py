@@ -7,7 +7,7 @@ class RestClient():
     """
 
     def __init__(self):
-        self.apikey = "###YOUR OMDBAPI APIKEY HERE###"
+        self.apikey = "14c840d6"
         self.endpoint = "http://www.omdbapi.com/?"
 
     def get_movie(self, title):
